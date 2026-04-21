@@ -1,0 +1,13 @@
+namespace ProjetoIntegrador2.API.Entities;
+
+public class Produto
+{
+    public Guid Id { get; set; }
+    public string Codigo { get; set; } = string.Empty;
+    public string Descricao { get; set; } = string.Empty;
+    public bool Ativo { get; set; }
+    public string Unid { get; set; } = string.Empty;
+    public decimal Custo { get; set; }
+    public decimal Preco { get; set; }
+    public decimal Estoque { get; set; }
+}
