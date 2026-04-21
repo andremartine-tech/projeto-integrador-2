@@ -1,0 +1,44 @@
+# Build outputs
+bin/
+obj/
+
+# Variáveis de ambiente e segredos
+.env
+.env.local
+appsettings.Local.json
+appsettings.*.Local.json
+**/secrets.json
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.rsuser
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!**/packages/repositories.config
+.nuget/
+
+# Logs
+*.log
+logs/
+
+# Publicação
+publish/
+PublishProfiles/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
